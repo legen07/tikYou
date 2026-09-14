@@ -1,0 +1,29 @@
+# Treat text files as text, mark specific files as binary
+* text=auto
+
+# Source code
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp4 binary
+*.ico binary
+
+# Executable scripts
+*.sh text eol=lf
+
+# Ensure consistent line endings across platforms
+*.sh text eol=lf
+
+# Ensure .gitignore is always text
+.gitignore text
+
+# Ensure package-lock.json is never modified by git checkout
+package-lock.json text eol=lf

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Legen
+    given-names: Joe
+    orcid: ""
+    affiliation: ""
+title: 'tikYou'
+version: 1.0.0
+doi: ""
+date-released: '2026-01-10'
+url: 'https://github.com/legen07/tikYou'
+keywords:
+  - tiktok
+  - youtube
+  - automation
+  - playwright
+  - browser-automation
+  - video-download
+repository-code: 'https://github.com/legen07/tikYou'
+repository-artifact: 'https://github.com/legen07/tikYou'
+license: MIT

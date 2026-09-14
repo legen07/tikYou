@@ -1,0 +1,28 @@
+# Conventional Commit Message Template
+#
+# Format: <type>[optional scope]: <description>
+#
+# Types:
+#   feat     - A new feature
+#   fix      - A bug fix
+#   docs     - Documentation changes
+#   style    - Code style changes (formatting, semicolons)
+#   refactor - Code refactoring (no functional change)
+#   test     - Adding or updating tests
+#   chore    - Maintenance tasks
+#   ci       - CI/CD configuration changes
+#   perf     - Performance improvements
+#   revert   - Revert a previous commit
+#
+# Example: feat(auth): add Google OAuth login
+#
+# Rules:
+# - Subject line max 50 characters (72 absolute max)
+# - Body wrapped at 72 characters
+# - Use imperative mood ("Add feature" not "Added feature")
+# - Separate subject from body with blank line
+# - Use bullet points for body (each on its own line)
+#
+# See: https://www.conventionalcommits.org/
+
+# Your commit message:

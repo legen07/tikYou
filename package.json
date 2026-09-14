@@ -1,0 +1,63 @@
+{
+  "name": "tikyou",
+  "version": "1.0.0",
+  "description": "Automated pipeline that downloads TikTok videos and posts them to YouTube using Playwright browser automation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "google-chrome --remote-debugging-port=9222 --user-data-dir='/home/joe/Dev/youtube/chromeum'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .js",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "tiktok",
+    "youtube",
+    "automation",
+    "playwright",
+    "browser-automation",
+    "video-download",
+    "social-media",
+    "headless-browser",
+    "content-pipeline"
+  ],
+  "author": "Joe Legen <legen07@github.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:legen07/tikYou.git"
+  },
+  "bugs": {
+    "url": "https://github.com/legen07/tikYou/issues"
+  },
+  "homepage": "https://github.com/legen07/tikYou#readme",
+  "dependencies": {
+    "playwright": "^1.57.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "eslint": "^8.56.0",
+    "husky": "^8.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "files": [
+    "index.js",
+    "tiktok.js",
+    "youtube.js",
+    "smartAutomation.js",
+    "organicTyper.js",
+    "videos.json",
+    "posted.json",
+    "start-start.sh",
+    "bash_test.sh",
+    "bashVideo.sh",
+    "shorts_logo.png"
+  ],
+  "overrides": {}
+}
